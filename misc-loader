@@ -1,0 +1,21 @@
+---------------------------------------------------------------------------------------------------------------
+------------------------------------- Misc -------------------------------------
+---------------------------------------------------------------------------------------------------------------
+
+local MiscTab = Window:CreateTab("🧩 Misc", nil) 
+
+MiscTab:CreateLabel(" Misc ", nil, Color3.fromRGB(30,30,30), false)
+
+---------------------------------------------------------------------------------------------------------------
+
+local TpSection = TpTab:CreateSection("Info")   ------------------------------------- Info
+
+local Label = TpTab:CreateLabel("Roblox: @CsonGamer1", nil, Color3.fromRGB(255, 255, 255), false) -- Title, Icon, Color, IgnoreTheme
+local Label = TpTab:CreateLabel("X: @BlackVoidVoxel", nil, Color3.fromRGB(255, 255, 255), false)
+local Label = TpTab:CreateLabel("YouTube: @BlackVoidVoxel", nil, Color3.fromRGB(255, 255, 255), false)
+local Label = TpTab:CreateLabel("TikTok: -", nil, Color3.fromRGB(255, 255, 255), false)
+local Label = TpTab:CreateLabel("Instagram: I will not make", nil, Color3.fromRGB(255, 255, 255), false)
+local Label = TpTab:CreateLabel("Discord: @voidoffical", nil, Color3.fromRGB(255, 255, 255), false)
+local Label = TpTab:CreateLabel("Discord Server: Soon...", nil, Color3.fromRGB(255, 255, 255), false)
+
+TpTab:CreateLabel(" More comming soon! ", nil, Color3.fromRGB(30,30,30), false)
