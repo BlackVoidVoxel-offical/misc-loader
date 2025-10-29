@@ -1,12 +1,7 @@
 local WindowRef = getgenv().Window or Window
-
-if not WindowRef then
-    warn("Misc tab: Window nem elérhető. getgenv().Window és Window nil.")
-    return
-end
+if not WindowRef then return end
 
 local MiscTab = WindowRef:CreateTab("🧩 Misc", nil)
-
 MiscTab:CreateLabel(" Misc ", nil, Color3.fromRGB(30,30,30), false)
 
 local InfoSection = MiscTab:CreateSection("Info")
@@ -18,5 +13,4 @@ MiscTab:CreateLabel("TikTok: -", nil, Color3.fromRGB(255,255,255), false)
 MiscTab:CreateLabel("Instagram: I will not make", nil, Color3.fromRGB(255,255,255), false)
 MiscTab:CreateLabel("Discord: @voidoffical", nil, Color3.fromRGB(255,255,255), false)
 MiscTab:CreateLabel("Discord Server: Soon...", nil, Color3.fromRGB(255,255,255), false)
-
 MiscTab:CreateLabel(" More coming soon! ", nil, Color3.fromRGB(30,30,30), false)
