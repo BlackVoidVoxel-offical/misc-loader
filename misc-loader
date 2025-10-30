@@ -14,3 +14,7 @@ MiscTab:CreateLabel("Instagram: I will not make", nil, Color3.fromRGB(255,255,25
 MiscTab:CreateLabel("Discord: @voidoffical", nil, Color3.fromRGB(255,255,255), false)
 MiscTab:CreateLabel("Discord Server: Soon...", nil, Color3.fromRGB(255,255,255), false)
 MiscTab:CreateLabel(" More coming soon! ", nil, Color3.fromRGB(30,30,30), false)
+
+MiscTab:CreateLabel(" ", nil, Color3.fromRGB(30,30,30), false)
+
+MiscTab:CreateLabel(" Some scripts are from LURKOUT Script Builder ", nil, Color3.fromRGB(255,255,255), false)
